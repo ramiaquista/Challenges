@@ -1,11 +1,4 @@
-def final_grade(exam, projects)
-  if exam > 90 || projects > 10
-    100
-  elsif exam > 75 && projects >= 5
-    90
-  elsif exam > 50 && projects >= 2
-    75
-  else
-    0
-  end
-end
+def count_red_beads n 
+  return 0 if n < 2
+  return (n-1)*2
+end 
